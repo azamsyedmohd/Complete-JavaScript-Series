@@ -7,3 +7,12 @@ const GITHUB_API = "https://api.github.com/users/akshaymarch7";
 const users = fetch(GITHUB_API);
 
 console.log(users);
+
+users
+  .then(function (response) {
+    console.log(response);
+    return response.json();
+  })
+  .then(function (json) {
+    console.log(json);
+  });
