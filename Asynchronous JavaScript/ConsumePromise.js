@@ -2,7 +2,7 @@
 
 // Fetch() is an API given by the browser to us to make an EXTERNAL CALL and it returns a promise.
 
-const GITHUB_API = "https://api.github.com/users/akshaymarch7";
+const GITHUB_API = "https://api.github.com/users/akshaaymarch7";
 
 const users = fetch(GITHUB_API);
 
@@ -15,6 +15,9 @@ users
   })
   .then(function (json) {
     console.log(json);
+  })
+  .catch(function (error) {
+    console.log(error.message);
   });
 
 // Promise is an object representing the eventual completion or failure of an asynchronous operation.
