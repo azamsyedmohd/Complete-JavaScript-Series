@@ -15,8 +15,10 @@ promise
   })
   .catch(function (error) {
     console.log(error.message);
+  })
+  .then(function () {
+    console.log("No matter at all! I am always be called.");
   });
-
 // function createOrder().
 
 function createOrder(cart) {
@@ -39,9 +41,9 @@ function createOrder(cart) {
 
 function validateCart(cart) {
   if (cart) {
-    return true;
-  } else {
     return false;
+  } else {
+    return true;
   }
 }
 
