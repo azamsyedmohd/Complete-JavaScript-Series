@@ -10,6 +10,9 @@ promise
     console.log(proceedToPayment(orderId));
     return proceedToPayment(orderId);
   })
+  .then(function (paymentInfo) {
+    console.log(paymentInfo);
+  })
   .catch(function (error) {
     console.log(error.message);
   });
