@@ -7,7 +7,8 @@ console.log(promise);
 promise
   .then(function (orderId) {
     console.log(orderId);
-    //   proceedToPayment(orderId);
+    console.log(proceedToPayment(orderId));
+    return proceedToPayment(orderId);
   })
   .catch(function (error) {
     console.log(error.message);
@@ -16,7 +17,7 @@ promise
 // function createOrder().
 
 function createOrder(cart) {
-  const promise = new Promise(function (resolve, reject) {
+  return new Promise(function (resolve, reject) {
     // check validation of  card.
     //  create Order.
     //   create orderId.
@@ -31,7 +32,6 @@ function createOrder(cart) {
       }, 5000);
     }
   });
-  return promise;
 }
 
 function validateCart(cart) {
@@ -40,4 +40,12 @@ function validateCart(cart) {
   } else {
     return false;
   }
+}
+
+function proceedToPayment(orderId) {
+  return new Promise(function (resolve, reject) {
+    orderId
+      ? resolve("Just wait! We are proceeding to payment.")
+      : reject(new Error("Sorry! We can't proceed to payment."));
+  });
 }
