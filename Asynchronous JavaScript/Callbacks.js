@@ -18,4 +18,10 @@ createOrder(cart, function (orderId) {
 
 // This is one way to handle the asynchronous tasks via callback functions.
 
-//
+// Disadvantages of callback hell
+
+// The problem with callback hell is that first of all we lose the control over the execution of asynchronous tasks.
+
+// We just rely on other program or API that first of all they will finish their work and call our tasks. So there may be chances of some error happening and may be tasks are not executed at all.
+
+// This is not the correct way of handling the asynchronous tasks like this with callbacks.
