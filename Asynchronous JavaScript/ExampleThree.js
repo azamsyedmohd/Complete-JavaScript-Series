@@ -38,3 +38,15 @@ async function handlePromise() {
 handlePromise().catch(function (error) {
   console.log(error.message);
 });
+
+// async await is the combination of handling the promises.
+
+// We can execute multiple promises inside async function.
+
+// await keyword to put before the async operation.
+
+// It just postpone the execution until and unless the result comes out of async operation.
+
+// After getting the result of async operation then execution is further resumed.
+
+// As this remains continue until and unless all the async operations are executed or one of the promise is not rejected.
