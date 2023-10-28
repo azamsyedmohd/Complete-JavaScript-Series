@@ -41,9 +41,9 @@ function createOrder(cart) {
 
 function validateCart(cart) {
   if (cart) {
-    return false;
-  } else {
     return true;
+  } else {
+    return false;
   }
 }
 
