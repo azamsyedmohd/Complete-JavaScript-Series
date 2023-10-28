@@ -4,7 +4,7 @@ const cart = ["shoes", "pants", "jeans"];
 
 // createOrder() is an API to create an order and it is async operation, which returns orderId.
 
-// proceedToPayment(orderId) is another API and another async opeartion which takes orderId as a parameter and do some payment operations.
+// proceedToPayment(orderId) is another API and another async operation which takes orderId as a parameter and do some payment operations.
 
 createOrder(cart, function (orderId) {
   proceedToPayment(function (paymentInfo) {
