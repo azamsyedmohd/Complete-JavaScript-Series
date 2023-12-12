@@ -9,3 +9,8 @@ console.log(values.push(100)); // 4 total number of new elements.
 console.log(values);
 
 // push() method adds a new Element and returns the total number of new elements.
+
+console.log(values.shift());
+console.log(values);
+
+// shift() method returns and removes  the very first elemnt from the array.
