@@ -12,3 +12,24 @@ var arrayExample = [
 ];
 
 console.log(arrayExample);
+
+// Accessing the elements
+
+console.log(arrayExample[0]);
+console.log(arrayExample[1]);
+console.log(arrayExample[2]);
+console.log(arrayExample[3]);
+console.log(arrayExample[4]);
+console.log(arrayExample[5]);
+
+arrayExample[6] = "Added New Element";
+
+console.log(arrayExample);
+
+arrayExample[6] = "Modified New Element";
+
+console.log(arrayExample);
+
+delete arrayExample[6];
+
+console.log(arrayExample);
