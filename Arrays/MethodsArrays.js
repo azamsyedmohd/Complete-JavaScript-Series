@@ -14,3 +14,8 @@ console.log(values.shift());
 console.log(values);
 
 // shift() method returns and removes  the very first elemnt from the array.
+
+console.log(values.unshift(127));
+console.log(values);
+
+// unshift() method adds the new element in the beginning of an array.
