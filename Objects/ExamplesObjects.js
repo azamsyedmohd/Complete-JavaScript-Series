@@ -35,3 +35,30 @@ console.log(person["age"]);
 console.log(person["firstName"]);
 console.log(person["lastName"]);
 console.log(person["ownsCars"]);
+
+var captainAmerica = {
+  firstName: "Steve",
+  lastName: "Rogers",
+  age: 38,
+  isAvenger: true,
+  friends: ["Bucky Barnes", "Bruce Banner", "Tony Stark"],
+  address: {
+    state: "New York",
+    city: {
+      name: "Brooklyn",
+      pincode: 123456,
+    },
+  },
+};
+
+console.log(captainAmerica.address.city.name);
+
+captainAmerica.isAvenger = false;
+
+console.log(captainAmerica);
+
+captainAmerica.movies = ["Age of Ultron", "Civil War", "First Avenger"];
+
+console.log(captainAmerica);
+
+delete captainAmerica.age;
