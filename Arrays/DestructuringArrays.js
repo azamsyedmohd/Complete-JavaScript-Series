@@ -12,8 +12,8 @@ console.log(e); // true
 
 const [first, ...rest] = example;
 
-console.log(first);
-console.log(rest);
+console.log(first); // "Syed Mohd Azam"
+console.log(rest); // ["Front End Developer","MCA",27,true]
 
 const [
   firstElement,
@@ -23,18 +23,18 @@ const [
   ...fifthElement
 ] = ["HTML", "CSS", "JavaScript", "React"];
 
-console.log(firstElement);
-console.log(secondElement);
-console.log(thirdElement);
-console.log(fourthElement);
-console.log(fifthElement);
+console.log(firstElement); // "HTML"
+console.log(secondElement); // "CSS"
+console.log(thirdElement); // "JavaScript"
+console.log(fourthElement); // "React"
+console.log(fifthElement); // [] (empty array with no elements)
 
 // Examples of destructuring of elements.
 console.log("****************");
 const arrayOne = ["JavaScript", "React", "Front End Development", 27, true];
 const [one, two] = arrayOne;
-console.log(one);
-console.log(two);
+console.log(one); // "JavaScript"
+console.log(two); // "React"
 
 const [elemOne, elemTwo, ...rem] = arrayOne;
 console.log(elemOne); // 'JavaScript'
