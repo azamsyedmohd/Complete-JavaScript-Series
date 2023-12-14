@@ -117,8 +117,8 @@ const {
   name: nameOfExampleObject,
   qualification: qualificationOfExampleObject,
   age: ageOfExampleObject,
-  address: { ...remain },
+  address: { ...remainainingKeys },
 } = exampleObject;
 console.log(nameOfExampleObject);
 console.log(qualification);
-console.log(remain);
+console.log(remainainingKeys);
