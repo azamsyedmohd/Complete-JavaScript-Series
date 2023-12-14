@@ -98,3 +98,27 @@ const referenceObject = exampleClone;
 const cloneObject = { ...exampleClone };
 console.log(referenceObject);
 console.log(cloneObject);
+
+console.log("*************************");
+
+const exampleObject = {
+  name: "Syed Mohd Azam",
+  qualification: "MCA",
+  age: 27,
+  address: {
+    country: "India",
+    city: "Aligarh",
+    university: "Aligarh Muslim University",
+    department: "Computer Science Department",
+  },
+};
+
+const {
+  name: nameOfExampleObject,
+  qualification: qualificationOfExampleObject,
+  age: ageOfExampleObject,
+  address: { ...remain },
+} = exampleObject;
+console.log(nameOfExampleObject);
+console.log(qualification);
+console.log(remain);
