@@ -120,5 +120,18 @@ const {
   address: { ...remainainingKeys },
 } = exampleObject;
 console.log(nameOfExampleObject);
-console.log(qualification);
+console.log(qualificationOfExampleObject);
 console.log(remainainingKeys);
+
+// Remaining keys in an object
+
+const remainingObject = {
+  name: "Syed Mohd Azam",
+  age: 27,
+  designation: "Front End Developer",
+  skills: ["JavaScript", "React", "TypeScript", "Next"],
+};
+
+const { name: nameOfRemainingObject, ...restValues } = remainingObject;
+console.log(nameOfRemainingObject);
+console.log(restValues);
