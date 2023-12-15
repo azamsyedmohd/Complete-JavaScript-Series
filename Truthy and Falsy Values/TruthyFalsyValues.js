@@ -48,7 +48,7 @@ console.log(Boolean({ first: "One", second: "Second" })); // true
 // Example of truthy and falsy values.
 
 (function () {
-  if ((-100 && 100 && "0") || [] === true || 0) {
+  if ((-100 && 100 && "0") || 0 === true || 0) {
     console.log(1);
     if ([] || (0 && false)) {
       console.log(2);
