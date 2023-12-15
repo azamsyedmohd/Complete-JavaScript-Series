@@ -44,3 +44,25 @@ console.log(Boolean([])); // true
 console.log(Boolean(["Syed Mohd Azam", null, undefined, 78])); // true
 console.log(Boolean({})); // true
 console.log(Boolean({ first: "One", second: "Second" })); // true
+
+// Example of truthy and falsy values.
+
+(function () {
+  if ((-100 && 100 && "0") || [] === true || 0) {
+    console.log(1);
+    if ([] || (0 && false)) {
+      console.log(2);
+    }
+    if (Infinity && NaN && false) {
+      console.log(3);
+      if ("") {
+        console.log(4);
+      }
+    } else {
+      console.log(5);
+      if (({} || false === "") && !(null && undefined)) {
+        console.log(6);
+      }
+    }
+  }
+})();
