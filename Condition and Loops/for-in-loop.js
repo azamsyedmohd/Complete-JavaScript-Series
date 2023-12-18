@@ -10,9 +10,12 @@ const colors = {
   tertiary: "White",
 };
 
-for (var color in colors) {
+for (const color in colors) {
   console.log(color + " --> " + colors[color]);
 }
 
-//console.log(color);
-console.log(colors);
+const colorsArray = ["Yellow", "Green", "Pink", "Orange"];
+
+for (const color in colorsArray) {
+  console.log(color + " --> ", colorsArray[color]);
+}
