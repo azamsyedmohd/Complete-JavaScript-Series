@@ -12,3 +12,12 @@ function printFirstName(firstName, callbackFunction) {
 function printLastName(lastName) {
   console.log(lastName);
 }
+
+// Another example of callback function
+
+const isEven = (num) =>
+  num % 2 === 0 ? "Yes! Number is Even" : "No! Number is Odd";
+
+const evenOdd = (callback, num) => callback(num);
+
+console.log(evenOdd(isEven, 8));
