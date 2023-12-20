@@ -29,7 +29,6 @@ const dollortransactions = transactions.map((inr) =>
   Number((inr / inrToDollor).toFixed(1))
 );
 console.log(dollortransactions);
-
 // forEach() --> a higher order function.
 
 // forEach() will loop through every element of your array and will perform specific operations that you have provided.
@@ -57,3 +56,9 @@ console.log("Filtered Array is : ", filtered);
 
 const filteredValues = numbers.filter((value) => value % 2 === 0);
 console.log("Filtered Values using filter() method : ", filteredValues);
+
+// find() --> a higher order function returns the first element of an array that satisfies the condition.
+
+const realValues = [1000, 3000, 4000, 2000, -898, 3800, -4500];
+
+const findValue = realValues.find((value) => value < 0);
