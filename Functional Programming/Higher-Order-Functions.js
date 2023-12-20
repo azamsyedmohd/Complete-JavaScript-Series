@@ -31,9 +31,22 @@ const dollortransactions = transactions.map((inr) =>
 console.log(dollortransactions);
 
 // forEach() --> a higher order function.
+
 // forEach() will loop through every element of your array and will perform specific operations that you have provided.
 // Instead of map, forEach() does not return any value, it only performs the operations which has given to it.
+
 const values = [1, 2, 3, 4, 5];
 const tripple = [];
 values.forEach((value) => tripple.push(value * value * value));
 console.log(tripple);
+
+// filter() --> a higher order function
+
+// Problem :-> You have to check for even numbers in an array and put them in separate array.
+
+const numbers = [1, 2, 20, 35, 12, 17, 46];
+const filtered = [];
+for (const value of numbers) {
+  if (value % 2 === 0) filtered.push(value);
+}
+console.log("Filtered Array is : ", filtered);
