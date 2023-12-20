@@ -62,3 +62,18 @@ console.log("Filtered Values using filter() method : ", filteredValues);
 const realValues = [1000, 3000, 4000, 2000, -898, 3800, -4500];
 
 const findValue = realValues.find((value) => value < 0);
+
+// findIndex()
+
+const firstIndex = realValues.findIndex((value) => value < 0);
+console.log(firstIndex); // 4th index
+
+// some() method --> a higher order function which returns true if a single element satisfies the condition provided in callback function.
+
+const multipleValues = [-1000, -3000, -4000, 2000, -898, -3800, -4500];
+console.log(multipleValues.some((value) => value > 0));
+
+// every() method --> a higher order function which returns true if all the elements of an array satisfies the condition provided in the callback function.
+
+const negativeValues = [-1000, -2000, -3000, -4000, -5000];
+console.log(negativeValues.every((value) => value < 0));
