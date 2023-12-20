@@ -42,6 +42,8 @@ console.log(tripple);
 
 // filter() --> a higher order function
 
+// filter() method returns a new array and it contains only those elements of given array that satisfies the condition provided in callback function.
+
 // Problem :-> You have to check for even numbers in an array and put them in separate array.
 
 const numbers = [1, 2, 20, 35, 12, 17, 46];
@@ -50,3 +52,8 @@ for (const value of numbers) {
   if (value % 2 === 0) filtered.push(value);
 }
 console.log("Filtered Array is : ", filtered);
+
+// using filter() method
+
+const filteredValues = numbers.filter((value) => value % 2 === 0);
+console.log("Filtered Values using filter() method : ", filteredValues);
