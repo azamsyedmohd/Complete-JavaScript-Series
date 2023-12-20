@@ -29,3 +29,10 @@ const dollortransactions = transactions.map((inr) =>
   Number((inr / inrToDollor).toFixed(1))
 );
 console.log(dollortransactions);
+
+// forEach() --> a higher order function
+
+const values = [1, 2, 3, 4, 5];
+const tripple = [];
+values.forEach((value) => tripple.push(value * value * value));
+console.log(tripple);
