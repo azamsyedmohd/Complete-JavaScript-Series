@@ -143,4 +143,9 @@ let data = [
 
 console.log(data.filter((obj) => obj.gender === "M").map((value) => value.age));
 
-//
+// Another Example on Chaining The methods.
+// From the given array find out the positive amounts and calculate their sum.
+const money = [1000, 3000, 4000, 2000, -898, 3800, 4500];
+console.log(
+  money.filter((value) => value > 0).reduce((sum, value) => sum + value, 0)
+);
