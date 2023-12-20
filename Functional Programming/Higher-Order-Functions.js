@@ -68,7 +68,7 @@ const findValue = realValues.find((value) => value < 0);
 const firstIndex = realValues.findIndex((value) => value < 0);
 console.log(firstIndex); // 4th index
 
-// some() method --> a higher order function which returns true if a single element satisfies the condition provided in callback function.
+// some() method --> a higher order function which returns true if even single element satisfies the condition provided in callback function.
 
 const multipleValues = [-1000, -3000, -4000, 2000, -898, -3800, -4500];
 console.log(multipleValues.some((value) => value > 0));
