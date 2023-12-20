@@ -30,8 +30,9 @@ const dollortransactions = transactions.map((inr) =>
 );
 console.log(dollortransactions);
 
-// forEach() --> a higher order function
-
+// forEach() --> a higher order function.
+// forEach() will loop through every element of your array and will perform specific operations that you have provided.
+// Instead of map, forEach() does not return any value, it only performs the operations which has given to it.
 const values = [1, 2, 3, 4, 5];
 const tripple = [];
 values.forEach((value) => tripple.push(value * value * value));
