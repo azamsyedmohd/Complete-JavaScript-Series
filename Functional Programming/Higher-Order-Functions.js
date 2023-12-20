@@ -77,3 +77,19 @@ console.log(multipleValues.some((value) => value > 0));
 
 const negativeValues = [-1000, -2000, -3000, -4000, -5000];
 console.log(negativeValues.every((value) => value < 0));
+
+// reduce() method --> a higher order function.
+
+const num = [1, 2, 3, 4, 10];
+let sum = 0;
+for (let i = 0; i < num.length; i++) {
+  sum = sum + num[i];
+}
+console.log(sum);
+
+// Reduce() method --> a higher order function which returns a single value.
+
+const singleValueSum = num.reduce((sum, value) => sum + value, 0);
+const singleValueProduct = num.reduce((prod, value) => prod * value, 1);
+console.log(singleValueSum);
+console.log(singleValueProduct);
