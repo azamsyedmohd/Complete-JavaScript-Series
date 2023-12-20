@@ -22,3 +22,10 @@ const arrayTwo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const squaredArrayTwo = arrayTwo.map((value) => value * value);
 
 console.log(squaredArrayTwo);
+
+const transactions = [1000, 3000, 4000, 2000, -898, 3800, -4500];
+const inrToDollor = 80;
+const dollortransactions = transactions.map((inr) =>
+  Number((inr / inrToDollor).toFixed(1))
+);
+console.log(dollortransactions);
