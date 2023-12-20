@@ -14,6 +14,9 @@ console.log(squaredArrayOne);
 
 // map() --> higher order function
 
+// map() will loop through every element of your array and will perform specific operations that you have provided.
+// map() returns an array.
+
 const arrayTwo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const squaredArrayTwo = arrayTwo.map((value) => value * value);
