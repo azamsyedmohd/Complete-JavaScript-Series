@@ -11,3 +11,11 @@ for (const value of arrayOne) {
 }
 
 console.log(squaredArrayOne);
+
+// map() --> higher order function
+
+const arrayTwo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const squaredArrayTwo = arrayTwo.map((value) => value * value);
+
+console.log(squaredArrayTwo);
