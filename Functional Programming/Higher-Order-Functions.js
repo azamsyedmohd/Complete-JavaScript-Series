@@ -93,3 +93,54 @@ const singleValueSum = num.reduce((sum, value) => sum + value, 0);
 const singleValueProduct = num.reduce((prod, value) => prod * value, 1);
 console.log(singleValueSum);
 console.log(singleValueProduct);
+
+// Chaining of Methods
+
+let data = [
+  {
+    name: "A",
+    age: 14,
+    gender: "M",
+  },
+  {
+    name: "B",
+    age: 34,
+    gender: "M",
+  },
+  {
+    name: "C",
+    age: 24,
+    gender: "F",
+  },
+  {
+    name: "D",
+    age: 44,
+    gender: "F",
+  },
+  {
+    name: "E",
+    age: 44,
+    gender: "M",
+  },
+  {
+    name: "I",
+    age: 28,
+    gender: "F",
+  },
+  {
+    name: "G",
+    age: 36,
+    gender: "M",
+  },
+  {
+    name: "H",
+    age: 47,
+    gender: "F",
+  },
+];
+
+// Age of all the males.
+
+console.log(data.filter((obj) => obj.gender === "M").map((value) => value.age));
+
+//
