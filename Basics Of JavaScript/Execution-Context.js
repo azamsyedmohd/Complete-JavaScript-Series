@@ -8,6 +8,6 @@
 
 // JavaScript is a single threaded and synchronous language
 
-// JavaScript is a synchronous language, it means that it will execute one instruction at a time. Once that instruction is executed, then it will execute another instruction after previous instruction.
+// JavaScript is a single threaded language, it means that it will execute one instruction at a time. Once that instruction is executed, then it will execute another instruction after previous instruction.
 
-// JavaScript is a single threaded language, it means that it will execute the instruction in a specific order.It will maintain the order, it cannot execute the instruction randomly, or it cannot execute the instruction which takes less that time over that instruction which takes higher time.
+// JavaScript is a synchronous language, it means that it will execute the instruction in a specific order.It will maintain the order, it cannot execute the instruction randomly, or it cannot execute the instruction which takes less that time over that instruction which takes higher time.
