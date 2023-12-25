@@ -20,7 +20,7 @@ if (a === undefined) {
 
 console.log("**********************************");
 
-console.log(b);
+console.log(b); // undefined
 var b = 7;
 console.log(b); // 7
 b = "Front End Development";
