@@ -17,3 +17,6 @@ var a = 67;
 console.log(this.a); //67
 console.log(window.a); //67
 console.log(a); //67
+
+console.log(x); // x is not defined
+// If the variable and function is not there in global object or window object then it is considered as not defined.
