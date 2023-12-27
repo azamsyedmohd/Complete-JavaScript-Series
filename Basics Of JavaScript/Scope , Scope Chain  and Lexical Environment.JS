@@ -8,7 +8,7 @@ function a() {
   }
 }
 a();
-console.log(b); // b is not defined.
+//console.log(b); // b is not defined.
 
 // There are two things. First is scope of a variable and secone one is the variable is under the scope of a particular block or a function or not.
 
