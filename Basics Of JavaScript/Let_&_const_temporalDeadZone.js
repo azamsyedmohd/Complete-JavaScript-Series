@@ -7,3 +7,4 @@ let a = 10;
 var b = 100;
 
 // Temporal ead zone is the time where let and constant variables are hoisted to the time where they are initialised.
+// Whenever you want to execute the variable declared with let and const during temporal dead zone it gives you the error called Reference Error.
