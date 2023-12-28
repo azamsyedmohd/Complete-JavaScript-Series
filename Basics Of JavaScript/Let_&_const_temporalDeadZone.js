@@ -12,3 +12,8 @@ var b = 100;
 console.log(x); // Reference Error : x is not defined.
 
 // Second case is that whenever we are unable to find the variable in both temporal dead zone and global object then we say that variable is not defined and it comes under the Reference Error.
+
+// Syntax Error
+
+let y = 10;
+let y = 100; // Syntax Error because you cannot redeclare same variable declared with let or const.
