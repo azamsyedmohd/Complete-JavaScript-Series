@@ -16,4 +16,5 @@ console.log(x); // Reference Error : x is not defined.
 // Syntax Error
 
 let y = 10;
-let y = 100; // Syntax Error because you cannot redeclare same variable declared with let or const.
+// let y = 100; // Syntax Error because you cannot redeclare same variable declared with let or const.
+var y = 100; // Again is a syntax error
