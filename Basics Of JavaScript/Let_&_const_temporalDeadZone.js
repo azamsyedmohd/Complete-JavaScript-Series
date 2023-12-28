@@ -5,3 +5,5 @@ console.log(b); // undefined
 console.log(a); // ReferenceError: cannot access before initialisation a.
 let a = 10;
 var b = 100;
+
+// Temporal ead zone is the time where let and constant variables are hoisted to the time where they are initialised.
