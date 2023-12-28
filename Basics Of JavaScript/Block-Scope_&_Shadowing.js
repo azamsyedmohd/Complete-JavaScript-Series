@@ -19,6 +19,7 @@ console.log(b); // 45
 console.log(c); // 34
 // This is known as Shadowing.
 
+console.log("***************************");
 const val = 34;
 {
   const val = 56;
@@ -29,3 +30,13 @@ const val = 34;
   console.log(val); // 56
 }
 console.log(val); // 34
+
+console.log("************************");
+const value = 56;
+{
+  {
+    console.log(value); // 56
+  }
+  console.log(value); // 56
+}
+console.log(value); // 56
