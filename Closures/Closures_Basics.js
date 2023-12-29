@@ -2,12 +2,12 @@
 
 // Closure is basically refers to the combination of a function with the lexical environment of its parent. In other words, you can say that the function whenever executes outside of its lexical environment remembers its surroundings.
 
-function outer() {
+function outer(param) {
   function inner() {
-    console.log(value);
+    console.log(param, value);
   }
-  let value = 50;
+  let value = "React";
   return inner;
 }
-var close = outer();
+var close = outer("JavaScript");
 close();
