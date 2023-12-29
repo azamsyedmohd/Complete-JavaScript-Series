@@ -15,5 +15,5 @@ function outest() {
   }
   return outer;
 }
-var close = outest()("JavaScript");
-close();
+let z = 100;
+outest()("JavaScript")();
