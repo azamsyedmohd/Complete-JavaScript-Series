@@ -9,10 +9,10 @@ function z() {
     b = 100;
     return y;
   }
-  return x();
+  return x;
 }
 var a = z();
-a(); // 100
+a()(); // 100
 
 // A closure is the combination of a function bundled together (enclosed) with references to its surroundings state(lexical environment) of its parent.In other words, closure gives an access to the outer's function scope from an inner function.
 
