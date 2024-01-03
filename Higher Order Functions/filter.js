@@ -11,3 +11,7 @@ const isOdd = function (value) {
 };
 
 console.log(second.filter(isOdd));
+
+// Second Way
+
+console.log(second.filter((value) => value % 2 === 1));
