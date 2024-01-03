@@ -29,3 +29,12 @@ console.log(
     .filter(({ age }) => age < 55)
     .map(({ firstName, lastName }) => firstName + lastName)
 );
+
+// list of all the names of people whose age is less than 55.
+
+const names = users.reduce(function (acc, current) {
+  current.age < 55 && acc.push(current.firstName + current.lastName);
+  return acc;
+}, []);
+
+console.log(names);
