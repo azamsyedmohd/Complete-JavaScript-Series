@@ -21,6 +21,13 @@ const binary = function (value) {
   return value.toString(2);
 };
 
-console.log(first, map(double));
+console.log(first.map(double));
 console.log(first.map(tripple));
-console.log(first.binary);
+console.log(first.map(binary));
+
+// Second Way
+
+console.log("**********************");
+console.log(first.map((val) => val * 2));
+console.log(first.map((val) => val * 3));
+console.log(first.map((val) => val.toString(2)));
