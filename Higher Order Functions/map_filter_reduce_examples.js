@@ -20,3 +20,12 @@ const singleObject = users.reduce(function (accumulator, current) {
   return accumulator;
 }, {});
 console.log(singleObject);
+
+// List of all the names of people whose age is less than 55.
+
+console.log(" Number of people having age less than 55");
+console.log(
+  users
+    .filter(({ age }) => age < 55)
+    .map(({ firstName, lastName }) => firstName + lastName)
+);
