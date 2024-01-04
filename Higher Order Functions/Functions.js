@@ -25,3 +25,15 @@ var anonymous = function () {
 };
 
 anonymous();
+
+// Difference between parameters and arguments in function
+
+// parameters are the local variables provided to the function ad its scope is accessible throughout the function, whereas the arguments are the valus provided to the function when it is invoked.
+
+function sum(one, two) {
+  console.log("Sum is : ", one + two);
+}
+
+sum(7, 5);
+
+// In this example, one and two are the parameters where 7 and 5 are the arguments.
