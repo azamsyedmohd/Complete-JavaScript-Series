@@ -55,3 +55,5 @@ function highest() {
 }
 const returnFunction = highest();
 returnFunction();
+
+// Note :- Higher Order Functions are those functions which takes a function as a parameter or returns a function as a value. And the function which passed as a parameter of another function is called callback function.
