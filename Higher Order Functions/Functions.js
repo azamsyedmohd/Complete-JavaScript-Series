@@ -37,3 +37,5 @@ function sum(one, two) {
 sum(7, 5);
 
 // In this example, one and two are the parameters where 7 and 5 are the arguments.
+
+// First Class Functions or First Class Citizens --> In JavaScript, functions are treated as values sincefunctions are considered as values do we can pass a function to another function as an argument and can also return the function from another function as a value. This ability make functions in JavaScript be first class functions and first class citizens.
