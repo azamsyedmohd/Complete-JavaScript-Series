@@ -10,13 +10,16 @@ Unleash the power of JavaScript with this carefully crafted playlist designed to
 ## 📚 Contents
 
 1. **01. Basics:** 🛤️ Lay the groundwork for your coding journey. From variables to functions, master the essentials that form the backbone of JavaScript.
+
    Topics in Basics :-  Variables, Variables DEclaration with let, var and const, primitive and non-primitive data types, block and block-scope, arrays and objects.
 
 3. **02. Advanced Topics:** 🚀 Elevate your game with advanced concepts. Dive into closures, promises, and object-oriented wizardry to become a JavaScript pro.
+
    Topics in Advanced :- Closures, Functional Programming, Higher Order Functions, Callback Functions, map filter and reduce and their working, Constructor Functions, promises and how 
    they are handled, async and await, event loop etc.
  
 5. **03. ES6 Features:** 🌈 Embrace the future with ES6. Learn the cool features that make your code sleeker and more powerful.
+
    Topics in ES6 :- Arrow Functions, Destructuring of arrays and objects, rest and spread operator, let and const etc.
 
 ## 🚀 How to Use
