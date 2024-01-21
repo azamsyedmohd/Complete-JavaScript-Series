@@ -1,4 +1,4 @@
-# 🚀 JavaScript Mastery Playlist🧡
+# 🚀 JavaScript Mastery Playlist🧡!
 Welcome to the JavaScript Mastery Playlist - Your Gateway to JavaScript Brilliance! 🌟
 
 ## I'm Syed Mohd Azam , the proud owner of this GitHub repository. 🎉
