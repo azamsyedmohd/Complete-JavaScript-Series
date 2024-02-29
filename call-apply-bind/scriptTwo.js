@@ -1,4 +1,4 @@
-// Call Bind and Apply Example
+// Call  Example Explained
 
 const insideFunction = {
   firstName: "Syed",
