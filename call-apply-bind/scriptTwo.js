@@ -15,5 +15,8 @@ const outsideFunction = function () {
   console.log(this.firstName + this.middleName + this.lastName);
 };
 
-insideFunction.printFullName();
-outsideFunction();
+const exampleObject = {
+  firstName: "Shah",
+  middleName: "Rukh",
+  lastName: "Khan",
+};
