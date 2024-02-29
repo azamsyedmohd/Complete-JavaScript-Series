@@ -12,7 +12,7 @@ const insideFunction = {
 
 const outsideFunction = function () {
   console.log(this);
-  console.log(this.firstName + this.middleName + this.lastName);
+  console.log(this.firstName + " " + this.middleName + " " + this.lastName);
 };
 
 const exampleObject = {
@@ -20,3 +20,6 @@ const exampleObject = {
   middleName: "Rukh",
   lastName: "Khan",
 };
+
+insideFunction.printFullName.call(exampleObject);
+outsideFunction.call(exampleObject);
